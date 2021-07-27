@@ -1,5 +1,7 @@
 <template>
-<div>备用组件</div>
+<div>
+    <h3>欢迎来到90年代，这里是阿七购物</h3>
+</div>
 </template>
 <script>
 export default {
@@ -8,9 +10,6 @@ export default {
         return {
            
         };
-    },
-    created(){
-    
     },
     methods:{
         

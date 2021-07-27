@@ -40,7 +40,7 @@ export default {
           { min: 3, max: 11, message: '长度在 3 到 11 个字符', trigger: 'blur' }
         ],
         password: [
-          { required: true, message: '请输入活动名称', trigger: 'blur' },
+          { required: true, message: '请输入用户密码', trigger: 'blur' },
           { min: 6, max: 16, message: '长度在 6 到 16 个字符', trigger: 'blur' }
         ]
       }
@@ -69,7 +69,7 @@ export default {
 </script>
 <style lang="less" scoped>
 .login_container {
-  background-color: #2b4b6b;
+  background-color: #2e2e2e;
   height: 100%;
 }
 .login_box {

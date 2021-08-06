@@ -10,7 +10,7 @@ import Categories from '../components/goods/Categories.vue'
 import Params from '../components/goods/Params.vue'
 import Goods from '../components/goods/List.vue'
 import Add from '../components/goods/Add.vue'
-import Orders from '../components/dingdan/Orders.vue'
+import Order from '../components/order/Order.vue'
 import Reports from '../components/shuju/Reports.vue'
 
 
@@ -31,7 +31,7 @@ const routes = [
       {path:'/params',component:Params},
       {path:'/goods',component:Goods},
       {path:'/goods/add',component:Add},
-      {path:'/orders',component:Orders},
+      {path:'/orders',component:Order},
       {path:'/reports',component:Reports},
     ]
   },

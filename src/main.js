@@ -38,6 +38,16 @@ Vue.filter('dateFormat',function(originVal){
   const ss=(time.getSeconds() + '').padStart(2,'0')
   return `${y}-${m}-${d} ${hh}:${mm}:${ss}`
 })
+Vue.filter('orderFormat',function(originVal){
+  const time =new Date(originVal)
+  const y=time.getFullYear()
+  const m=(time.getMonth() + 1 + '').padStart(2,'0')
+  const d=(time.getDay() + '').padStart(2,'0')
+  const hh=(time.getHours() + '').padStart(2,'0')
+  const mm=(time.getMinutes() + '').padStart(2,'0')
+  const ss=(time.getSeconds() + '').padStart(2,'0')
+  return `${y}-${m}-${d} ${hh}:${mm}:${ss}`
+})
 new Vue({
   router,
   render: h => h(App)
